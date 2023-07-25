@@ -34,11 +34,3 @@ public class FileReader {
 }
 
 
-class Main {
-    public static void main(String[] args) {
-        FileReader fileReader = new FileReader();
-        File file = new File("C:\\Users\\GComp.ge\\Desktop\\stage1-module7-nio-task1\\src\\main\\resources\\Profile.txt");
-        Profile profile = fileReader.getDataFromFile(file);
-        System.out.println(profile);
-    }
-}
